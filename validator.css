@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: 'Open San', serif;
+    display: flex;
+    min-height:50vh ;
+   align-items:center;
+   justify-content: center;
+   margin: 0px;
+}
+.container{
+    background-color: white;
+    border: 3px dashed gray;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px;
+box-shadow: 5px 5px 10px  rgb(96, 158, 96); 
+width: 500px;
+
+}
+.form{
+    padding: 20px 30px;
+    margin: 20px;
+}
+ h2 {
+     text-align: center;
+     font-size: 36px;
+     color: rgb(80, 160, 80);
+     text-decoration: underline;
+     margin: 0 0 20px;
+ }
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control label{
+color:seagreen;
+margin-bottom: 5px;
+display: block;
+}
+.form-control input{
+    border-radius:4px solid grey;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+.form-control input:focus{
+    outline: 0;
+    border-color: #777;
+}
+.form-control.success input {
+    border-color: rgba(10, 247, 207,0.5);
+}
+
+.form-control.error input {
+    border-color: rgba(240, 77, 12, 0.795);
+}
+.form-control small{
+    color:rgba(240, 77,12,0.795);
+    bottom:0;
+    left:0px;
+    visibility: hidden;
+    display: none;
+}
+.form-control.error small{
+    visibility: visible;
+}
+    .form button{
+        cursor:pointer;
+        font-size:16px;
+        background-color: rgb(9, 71, 9);
+        border:2px 4px solid;
+        color:white;
+        padding:10px;
+        margin-top:2px;
+        width:100%;
+    }
